@@ -1,7 +1,9 @@
-Hello!
+# Facebook Crawling Scripts
+# Introduction
+Hello! This repository contains code for crawling comments, reactions from posts/photos, and users' profiles from social media platforms using Scrapy and Selenium. While the current implementation works, there's room for improvement in terms of efficiency and scalability.
 
-I finished these codes but they are not efficient enough. 
-
-I can use these to crawl comments, reactions from posts/photos, and users profiles.
-
-Please leave me any idea so that I can improve them.
+# Scripts
+- fb_photos.py: Crawls photos from Facebook.
+- fb_posts.py: Retrieves posts from Facebook.
+- mfb_reaction.py: Collects reactions on Facebook posts.
+- profile.py: Crawls users' public profiles.
